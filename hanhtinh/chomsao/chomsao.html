@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7592e4a38d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chomsao.css">
+    <link rel="stylesheet" href="../Home/style.css">
+    <title>Chòm sao</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="mx-auto" src="../pictures/menu/logo.jpg" height="50">
+                </div>
+                <div class="col-sm-7">
+                    <form method="get">
+                        <input type="text" placeholder="Search.." name="search" value="Search..." style="width:80%;">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-sm-2" style="padding-top: 10px;">
+                    <a class="text-white" href="../backend/login_form.php">Đăng nhập</a>
+                    <i class="text-white">/</i>
+                    <a class="text-white" href="../backend/register_form.php">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../Home/home.html">Trang chủ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../chomsao/chomsao.html"> Chòm sao </a></li>
+                        <li class="nav-item dropdown" id="myDropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hành tinh  </a>
+                            <ul class="dropdown-menu bg-dark navbar-dark">
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saothuy.html">Sao Thủy</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saokim.html">Sao Kim</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/traidat.html">Trái Đất</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saohoa.html">Sao Hỏa</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saomoc.html">Sao Mộc</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saotho.html">Sao Thổ</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/thienvuong.html">Sao Thiên Vương</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/haivuong.html">Sao Hải Vương</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../quansat/Daiquansat.html">Đài</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../khoahoc/khoahoc.html">Khoa học</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../backend/responsive.php">Liên hệ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../aboutus/profile.html">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <article>
+            <h3>☆ Star Wikipedia ☆</h3>
+            <div class="new_list">
+                <div class="news_item">
+                    <h4>Sao Aquarius - Bảo Bình</h4>
+                    <img src="../pictures/chomsao/aqua.jpg" alt="" width="300px" height="300px">
+                    <a href="#aries">Chi Tiết</a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Taurus - Kim Ngưu</h4>
+                    <img src="../pictures/chomsao/taurus.jpg" alt="" width="300px" height="300px">
+                    <a href="#taurus">Chi Tiết</a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Gemini - Song Tử</h4>
+                    <img src="../pictures/chomsao/gemini.jpg" alt="" width="300px" height="300px">
+                    <a href="#gemini">Chi Tiết</a>
+                </div>
+            </div>
+            <div class="new_list">
+                <div class="news_item">
+                    <h4>Sao Cancer - Cự Giải</h4>
+                    <img src="../pictures/chomsao/cancer.jpg" alt="" width="300px" height="300px">
+                    <a href="#cancer">Chi Tiết</a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Virgo - Trinh Nữ</h4>
+                    <img src="../pictures/chomsao/virgo.jpg" alt="" width="300px" height="300px">
+                    <a href="#virgo">Chi Tiết</a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Libra - Thiên Bình</h4>
+                    <img src="../pictures/chomsao/libra.jpg" alt="" width="300px" height="300px">
+                    <a href="#libra">Chi Tiết</a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <h3 style="color: white;">_____________________________</h3>
+        </article>
+        <content>
+            <h3 id="aries" style="color: coral;">● Sao Aquarius - Bảo Bình ●</h3>
+            <p>
+                * Chòm sao này biểu tượng cho con cừu lông vàng trên bầu trời trong thần thoại Hy Lạp, đang cõng Frix và Hellé là hai người con của vua, bị mẹ ghẻ hắt hủi. Cả người Babylon cổ, người Ai Cập cổ, người Persan cổ cũng nhìn thấy hình ảnh con cừu trong chòm
+                sao này.
+                <br> * Chòm sao có khoảng 50 sao có thể nhìn thấy bằng mắt thường, do cấp sao biểu kiến nhỏ hơn 6 m, trong đó sao Hamal là sao sáng nhất.
+            </p>
+            <h3 id="taurus" style="color: coral;">● Sao Taurus - Kim Ngưu ●</h3>
+            <p>
+                * Chòm Sao Kim Ngưu là một chòm sao quan trọng trên bán thiên cầu bắc. Ngoài hai cụm sao mở lớn nhất có thể quan sát từ Trái Đất, chòm Sao Kim Ngưu rất dễ nhận ra trên bầu trời nhờ nó nằm ngay bên chòm Lạp Hộ, tên Latinh Orion nổi bật trên bầu trời đêm.
+                Người Chaldei đã tưởng tượng hình ảnh con trâu trong chòm sao này cách đây năm nghìn năm. Con trâu với biểu tượng cho sức mạnh và khả năng sinh sản của đàn ông, đã có mặt trong nhiều truyền thuyết. Nó được người Israel, người Hy Lạp thờ
+                phụng. Theo truyền thuyết, Zeus hóa thân thành trâu, để kiếm cách đoạt được công chúa Europe. Khi Zeus lẩn vào đàn trâu của cha cô, công chúa Europe trèo lên lưng trâu và trang điểm sừng trâu bằng vòng hoa. Bất thình lình trâu dõng mình,
+                lao xuống sóng nước cùng công chúa Europe bơi về Crete. Trong chòm sao chỉ có hình ảnh đầu trâu đang bơi, còn phần mình không nhìn thấy vì đang chìm trong sóng nước. Zeus mang Europa ngang qua biển Địa Trung Hải đến vùng đảo Crete của
+                Hy Lạp, và cưới nàng ở đó. Kể từ đấy, miền đất mà Zeus mang Europa đến được biết đến dưới cái tên Europe, chính là châu Âu ngày nay.<br> * Kim Ngưu là một chòm sao lớn và nổi bật trong bầu trời Bán cầu bắc vào mùa đông.
+                Vào tháng 9 và tháng 10, Kim Ngưu có thể nhìn thấy vào buổi tối ở chân trời phía đông. Các thời điểm thuận lợi nhất để quan sát chòm sao này trên bầu trời đêm là trong tháng 12 và tháng 1. Đến tháng 3 và tháng 4, chòm sao này sẽ xuất hiện
+                ở phía tây trong lúc hoàng hôn.
+            </p>
+            <h3 id="gemini" style="color: coral;">● Sao Gemini - Song Tử ●</h3>
+            <p>
+                * Chòm sao Song Tử là địa điểm may mắn trên thiên cầu cho việc phát hiện các hành tinh mới. William Herschel tìm ra Sao Thiên Vương vào năm 1781 gần sao Eta (η) Geminorum. Cũng trong chòm sao này Clyde William Tombaugh tìm ra Sao Diêm Vương vào năm 1930
+                gần sao Đelta (δ) Geminorum. Tuy mang ký hiệu Alpha (α) Geminorum, sao Castor là sao sáng thứ hai trong chòm sao Song Tử, sau sao Pollux, ký hiệu Beta (β) Geminorum. Castor là sao đôi, có thể quan sát các sao thành phần bằng kính viễn
+                vọng cỡ nhỏ, các sao thành phần cách nhau khoảng ba giây cung. Sao Eta (η) Geminorum là sao biến đổi có thể nhìn bằng mắt thường, với cấp sao biểu kiến từ 3,2 đến 3,9 m và chu kỳ hơn tám tháng.<br> * Gần ranh giới với chòm
+                sao Kim Ngưu có thể tìm thấy cụm sao mở M35 bằng ống nhòm, bên cạnh nó (khoảng cách biểu kiến) là cụm sao mở NGC 2158, nhìn qua kính viễn vọng nhỏ chỉ là một vết sáng mờ. Thực tế NGC 2158 cách Trái Đất 16000 ly, xa hơn M35 năm lần. Tuy
+                chòm sao chỉ đứng thứ 30 về diện tích, Song Tử có tới 70 sao có thể quan sát bằng mắt thường ứng (cấp sao biểu kiến nhỏ hơn 6m). Chòm sao Song Tử còn dễ nhận ra trên bầu trời đêm nhờ các chòm sao nổi bật nằm kề là Tiểu Khuyển và Lạp Hộ.
+                <br>
+            </p>
+            <h3 id="cancer" style="color: coral;">● Sao Cancer - Cự Giải ●</h3>
+            <p>
+                * Trong thần thoại Hy Lạp nữ thần Hera cho cua dữ đến giúp trường xà Hydra trong chiến trận với Heracles. Khi cua bị Heracles bẻ gãy càng và chết, nữ thần Hera thương xót, đưa lên bầu trời để đền ơn lòng dũng cảm của nó. Sau đó, chữa vết thương cho nó.
+                <br> * Không có ngôi sao nào trong chòm Cự Giải sáng hơn 4m. Chòm sao này được để ý chỉ nhờ nó nằm trong dãy mười hai chòm sao hoàng đạo và nhờ cụm sao mở M44. M44 nằm sát hoàng đạo, với hơn 200 ngôi sao trên diện tích 1,5 độ cung có thể
+                thấy bằng ống nhòm, trong đêm tối có thể nhìn thấy bằng mắt thường. Cụm sao mở tiếp theo là M67 nằm cạnh sao α Cnc, có tới 500 ngôi sao mờ.
+            </p>
+            <h3 id="virgo" style="color: coral;">● Sao Virgo - Trinh Nữ ●</h3>
+            <p>
+                * Ngôi sao đáng chú ý nhất trong chòm sao Thất Nữ là sao Giác tức Spica (α Vir), nó đôi khi được coi như là bông lúa trong tay Thất Nữ. Sao Giác làm cho người ta dễ dàng xác định được chòm sao Thất Nữ, do nó có thể tìm thấy bằng cách nối đường cong của
+                Gấu Lớn (Ursa Major) tới Arcturus trong chòm Mục Phu (Boötes) và tiếp tục theo đường cong này một khoảng tương tự sẽ tới sao Giác. Các sao sáng khác trong chòm sao Thất Nữ còn có Zavijah (β Vir), Porrima (γ Vir), Auva (δ Vir) và Vindemiatrix
+                (ε Vir). Các sao mờ hơn đã được đặt tên có Heze (ζ Vir), Zaniah (η Vir), Syrma (ι Vir) và Rijl al Awwa (μ Vir). Ngôi sao 70 Virginis là một hệ thống hành tinh ngoài Hệ Mặt Trời với một hành tinh đã được xác nhận là có khối lượng bằng khoảng
+                6,6 lần khối lượng của Sao Mộc.
+            </p>
+            <h3 id="libra" style="color: coral;">● Sao Libra - Thiên Bình ●</h3>
+            <p>
+                * Chòm sao này nguyên thủy được coi là tạo thành một phần vuốt của con bọ cạp (Bọ Cạp), là cung chiêm tinh xuất hiện muộn nhất và là cung duy nhất không có đại diện tượng trưng là các thực thể sống. Trong thần thoại Hy Lạp sau này, chòm sao khi quan sát
+                nó riêng rẽ thì lờ mờ giống như bộ cân đĩa và được miêu tả như là cái cân được giữ bởi nữ thần công lý Astraea. Bởi vì Thiên Bình nguyên thủy là một phần của Xử Nữ (Virgo) (như là cái cân), và trước đó là của Thiên Hạt, nên nó đã không
+                phải là một thực thể rõ rệt mà cung hoàng đạo đã được đặt tên theo. Vị trí của nó có thể bị chiếm bởi Mục Phu, là chòm sao gần nhất đối với hoàng đạo. Do vị trí của Mục Phu (Boötes) cần phải được giữ trên hoàng đạo là bị khuyết, nó có
+                thể cùng với Đại Hùng, Thiên Long (Draco) và Tiểu Hùng, cũng trong Thiên Bình, dẫn tới huyền thoại về các quả táo của Hesperides, một trong Mười hai kỳ công của Hercules.
+            </p>
+        </content>
+
+    </div>
+    <div class="header-scroll">
+        <a onclick="topFunction()" id="myBtn" title="Go to top"><img src="../pictures/menu/scroll-up.jpg" width="30px"></a>
+    </div>
+    <div class="footer text-white">
+        <div class="footer-left">
+            <h3>Điều hướng</h3>
+            <ul>
+                <li> <a href="../Home/home.html">Trang chủ</a></li>
+                <li> <a href="../aboutus/profile.html">Giới thiệu</a></li>
+            </ul>
+        </div>
+        <div class="footer-middle">
+            <div class="note">
+                <h1>SPACE</h1>
+                <p>Blog chia sẻ kiến thức về vũ trụ và các hành tinh.</p>
+                <input type="text" placeholder="Search.." name="search" value="Search..." style="width:80%;">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="footer-right">
+            <h4>THÔNG TIN LIÊN HỆ</h4>
+            <p>Lê Thanh Nghị, Hai Bà Trưng, Hà Nội.</p>
+            <p><i class="fas fa-phone-alt" style="padding: 5px;"></i>012.012.2015</p>
+            <p>Bạn có câu hỏi? Hãy email chúng tôi tại
+                <p><i class="fas fa-envelope" style="padding: 5px;"></i>
+                    <a href="mailto:hoanghieuduc@gmail.com">hoanghieuduc@gmail.com </a>
+                </p>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+
+<script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+</html>
