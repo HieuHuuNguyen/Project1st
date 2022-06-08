@@ -1,0 +1,244 @@
+.header {
+    background-color: rgb(49 26 61);
+}
+
+.find {
+    border-radius: 25px;
+    width: 450px;
+}
+
+.menu-bar {
+    background-color: #050504;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #363342;
+}
+
+.main-content {
+    float: left;
+    width: 100%;
+}
+
+.header-scroll {
+    position: fixed;
+    padding-left: 1440px;
+    bottom: 30px;
+    width: 100%;
+}
+
+.mx-auto {
+    border-radius: 100px;
+}
+
+.col-sm-7 {
+    padding-top: 8px;
+}
+
+.col-sm-7 button i {
+    color: #b7b721;
+}
+
+.col-sm-7 input {
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 20px;
+    border: none;
+    outline: none;
+}
+
+.col-sm-7 button {
+    margin-left: -35px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../pictures/menu/mainbackground.jpg");
+}
+
+.card {
+    background-color: #E7E9EB;
+}
+
+.container {
+    width: 80%;
+}
+
+.container .new_list {
+    display: flex;
+}
+
+.new_list .news_item {
+    border-style: groove;
+    border-radius: 15px;
+    margin: 0px auto;
+    padding: 30px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.view {
+    border-style: groove;
+    border-radius: 15px;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.new_list .news_item h4 {
+    text-align: center;
+    color: wheat;
+    padding: 6px 0;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px 0;
+    color: rgb(0, 191, 255);
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.new_list .view a {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+}
+
+.new_list .view a:hover {
+    color: red;
+    transition: 0.7s;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 45px;
+    color: lightgray;
+}
+
+.container .group li {
+    justify-content: center;
+    font-size: 25px;
+    line-height: 45px;
+    color: lightgray;
+}
+
+.next a {
+    font-size: 30px;
+    color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.next a:hover {
+    color: red;
+    transition: 0.7s;
+}
+
+.footer {
+    background-color: rgb(49 26 61);
+    display: flex;
+}
+
+.footer .footer-left {
+    margin-left: 180px;
+    width: 15%;
+    border-right: 1px solid #80808073;
+}
+
+.footer .footer-left h3 {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.footer .footer-left li {
+    padding-top: 15px;
+}
+
+.footer .footer-left a {
+    color: white;
+}
+
+.footer .footer-middle {
+    width: 35%;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    border-right: 1px solid #80808073;
+}
+
+.footer .footer-middle .anh img {
+    width: 20%;
+}
+
+.note input {
+    width: 40%;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.note button {
+    margin-left: -35px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+.note button i {
+    color: #b7b721;
+}
+
+.footer-middle .note h1 {
+    color: white;
+    padding: 5px 5px 5px;
+    font-weight: 700;
+}
+
+.footer-middle .note p {
+    color: white;
+}
+
+.footer-right {
+    width: 25%;
+    color: white;
+    padding-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.footer-right h4 {
+    color: white;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #b7b721;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trang chủ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7592e4a38d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="mx-auto" src="../pictures/menu/logo.jpg" height="50">
+                </div>
+                <div class="col-sm-7">
+                    <form method="get">
+                        <input type="text" placeholder="Search.." name="search" value="Search..." style="width:80%;">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-sm-2" style="padding-top: 10px;">
+                    <a class="text-white" href="../backend/login_form.php">Đăng nhập</a>
+                    <i class="text-white">/</i>
+                    <a class="text-white" href="../backend/register_form.php">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../Home/home.html">Trang chủ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../chomsao/chomsao.html"> Chòm sao </a></li>
+                        <li class="nav-item dropdown" id="myDropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hành tinh  </a>
+                            <ul class="dropdown-menu bg-dark navbar-dark">
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saothuy.html">Sao Thủy</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saokim.html">Sao Kim</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/traidat.html">Trái Đất</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saohoa.html">Sao Hỏa</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saomoc.html">Sao Mộc</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/saotho.html">Sao Thổ</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/thienvuong.html">Sao Thiên Vương</a></li>
+                                <li> <a class="dropdown-item text-white" href="../hanhtinh/haivuong.html">Sao Hải Vương</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../quansat/Daiquansat.html">Đài</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../khoahoc/khoahoc.html">Khoa học</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../backend/responsive.php">Liên hệ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../aboutus/profile.html">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <article>
+            <h3>☆ Plane ☆</h3>
+            <div class="new_list">
+                <div class="news_item">
+                    <h4>Mercury - Sao Thủy</h4>
+                    <a href="../hanhtinh/saothuy.html"><img src="../pictures/img/sao thuy.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="news_item">
+                    <h4>Venus - Sao Kim</h4>
+                    <a href="../hanhtinh/saokim.html"><img src="../pictures/img/sao kim.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="news_item">
+                    <h4>Earth - Trái Đất</h4>
+                    <a href="../hanhtinh/traidat.html"><img src="../pictures/img/trai dat.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="view">
+                    <a href="../hanhtinh/hanhtinh.html">View More</a>
+                </div>
+
+            </div>
+            <h3 style="color: white;">_____________________________</h3>
+            <h3>☆ Star ☆</h3>
+            <div class="new_list">
+                <div class="news_item">
+                    <h4>Sao Aquarius - Bảo Bình</h4>
+                    <a href="../chomsao/aparius.html"><img src="../pictures/img/aqua.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Taurus - Kim Ngưu</h4>
+                    <a href="../chomsao/taurus.html"><img src="../pictures/img/taurus.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="news_item">
+                    <h4>Sao Gemini - Song Tử</h4>
+                    <a href="../chomsao/gemeni.html"><img src="../pictures/img/gemini.jpg" width="300px" height="300px"></a>
+                </div>
+                <div class="view">
+                    <a href="../chomsao/chomsao.html">View More</a>
+                </div>
+            </div>
+            <h3 style="color: white;">_____________________________</h3>
+        </article>
+        <h3 id="aries" style="color: coral;">● Thuyết Vụ nổ lớn ●</h3>
+        <img class="card-img-top" src="../pictures/img/Thuyết Vụ nổ lớn.jpg" alt="Card image" class="mx-auto d-block">
+        <p>
+            Vũ trụ hình thành như thế nào? Điều gì đã dẫn đến sự hình thành của các ngôi sao, hành tinh và thiên hà? Đây là một số câu hỏi mà hàng triệu người đã hỏi trong suốt lịch sử. Cụ thể, các nhà khoa học muốn tìm ra lời giải thích cho tất cả các hiện tượng
+            đang tồn tại. Từ đây được sinh ra thuyết Vụ nổ lớn. Đối với những người chưa biết, đó là lý thuyết giải thích nguồn gốc của vũ trụ của chúng ta. Nó cũng thu thập lời giải thích về sự tồn tại của các hành tinh và thiên hà.
+        </p>
+        <h3 id="aries" style="color: coral;">● Đặc điểm của thuyết Vụ nổ lớn ●</h3>
+        <img class="card-img-top" src="../pictures/img/Đặc điểm.jpg" alt="Card image" class="mx-auto d-block">
+        <p>
+            Nó còn được gọi là Thuyết Vụ nổ lớn. Nó là vũ trụ duy trì rằng vũ trụ của chúng ta như chúng ta biết đã bắt đầu hàng tỷ năm trước trong một vụ nổ lớn. Tất cả vật chất tồn tại trong vũ trụ ngày nay chỉ tập trung ở một điểm.
+        </p>
+        <p>
+            Từ thời điểm xảy ra vụ nổ, vật chất bắt đầu nở ra và vẫn tiếp tục như vậy cho đến ngày nay. Các nhà khoa học liên tục lặp lại rằng vũ trụ liên tục mở rộng. Vì lý do này, lý thuyết Vụ nổ lớn bao gồm lý thuyết về vũ trụ đang giãn nở. Vật chất được lưu trữ
+            tại một điểm không chỉ bắt đầu mở rộng mà còn bắt đầu hình thành các cấu trúc phức tạp hơn. Chúng tôi đề cập đến các nguyên tử và phân tử, từng chút một, đã hình thành các sinh vật sống.
+        </p>
+        <p>
+            Các nhà khoa học đã ước tính được ngày bắt đầu của Vụ nổ lớn. Nó có nguồn gốc khoảng 13.810 triệu năm trước. Trong giai đoạn vũ trụ vừa được tạo ra này, nó được gọi là vũ trụ nguyên sinh. Trong đó, các hạt được cho là có năng lượng rất lớn.
+        </p>
+        <p>
+            Với vụ nổ này, các proton, neutron và electron đầu tiên đã được hình thành. Các proton và neutron được tổ chức thành các hạt nhân của nguyên tử. Tuy nhiên, các electron, với điện tích của chúng, được tổ chức xung quanh chúng. Bằng cách này, vật chất bắt
+            nguồn.
+        </p>
+        <h3 id="aries" style="color: coral;">● Sự hình thành các ngôi sao và thiên hà ●</h3>
+        <img class="card-img-top" src="../pictures/img/thiên hà.jpg" alt="Card image" class="mx-auto d-block">
+        <p>
+            Của chúng tôi <u style="color: aqua;">hệ mặt trời</u> là trong vòng <b>thiên hà được gọi là Dải Ngân hà</b>. Tất cả các ngôi sao mà chúng ta biết ngày nay bắt đầu hình thành từ rất lâu sau vụ nổ Big Bang.
+        </p>
+        <p>
+            Những ngôi sao đầu tiên được cho là đã bắt đầu hình thành cách đây 13.250 tỷ năm. Khoảng 550 triệu năm sau vụ nổ, chúng bắt đầu xuất hiện. Các thiên hà lâu đời nhất có nguồn gốc từ 13.200 tỷ năm trước, điều này khiến chúng cũng già hơn. Hệ mặt trời của
+            chúng ta, Mặt trời và các hành tinh được hình thành cách đây 4.600 tỷ năm.
+        </p>
+        <h3 id="aries" style="color: coral;">● Những bằng chứng về vũ trụ đang giãn nở và vụ nổ ●</h3>
+        <img class="card-img-top" src="../pictures/img/bằng chứng.jpg" alt="Card image" class="mx-auto d-block">
+        <p>
+            Để chứng minh rằng lý thuyết Vụ nổ lớn có ý nghĩa, phải có bằng chứng cho thấy vũ trụ đang giãn nở. Đây là những bằng chứng về vấn đề này:
+        </p>
+        <div class="group">
+            <li><b>Nghịch lý Olbers:</b> Bóng tối của bầu trời đêm.</li>
+            <li><b>Định luật Hubble:</b> Nó có thể được xác minh bằng cách quan sát rằng các thiên hà đang di chuyển ra xa nhau.</li>
+            <li>Hiệu ứng Tolman (biến đổi độ bóng bề mặt).</li>
+            <li><b>Sao băng xa:</b> Sự giãn nở thời gian được quan sát thấy trong các đường cong ánh sáng của nó.</li>
+        </div>
+
+        <p>
+            Sau khoảnh khắc của vụ nổ, mỗi hạt đang nở ra và di chuyển ra xa nhau. Những gì đã xảy ra ở đây tương tự như những gì xảy ra khi chúng ta làm nổ một quả bóng bay. Khi chúng ta đưa vào nhiều không khí hơn, các hạt không khí ngày càng nở ra nhiều hơn cho
+            đến khi chúng chạm vào các bức tường.
+        </p>
+        <p>
+            Các nhà vật lý lý thuyết đã tìm cách tái tạo lại trình tự thời gian của các sự kiện bắt đầu từ 1/100 giây sau Vụ nổ lớn. Tất cả các vật chất được giải phóng đều bao gồm các hạt cơ bản đã biết. Trong số đó, chúng tôi tìm thấy <b>electron, positron, meson, baryon, neutrino va photon</b>.
+        </p>
+        <p>
+            Một số tính toán gần đây hơn chỉ ra rằng hydro và heli là sản phẩm chính của vụ nổ. Các nguyên tố nặng hơn sau đó đã được hình thành trong các ngôi sao. Khi vũ trụ giãn nở, bức xạ còn lại từ Vụ nổ lớn tiếp tục nguội đi cho đến khi nó đạt đến nhiệt độ
+            3 K (-270 ° C). Những dấu vết của bức xạ phông vi sóng mạnh này đã được các nhà thiên văn học vô tuyến phát hiện vào năm 1965. Đây là những gì cho thấy sự giãn nở của vũ trụ.
+        </p>
+        <p>
+            Một trong những nghi ngờ lớn của các nhà khoa học là giải quyết liệu vũ trụ sẽ giãn nở vô thời hạn hay nó sẽ co lại. <u style="color: aqua;">Vật chất tối</u> có tầm quan trọng lớn trong đó.
+        </p>
+        <h3 id="aries" style="color: coral;">● Người khám phá và các lý thuyết khác ●</h3>
+        <img class="card-img-top" src="../pictures/img/Người khám phá.jpg" alt="Card image" class="mx-auto d-block">
+        <p>
+            Lý thuyết vũ trụ đang giãn nở <b>được xây dựng vào năm 1922 bởi Alexander Friedmann</b>. Ông dựa trên lý thuyết tương đối rộng của Albert Einstein (1915). Sau đó, vào năm 1927, linh mục người Bỉ Georges Lemaître đã dựa trên công trình của
+            các nhà khoa học Einstein và De Sitter và đi đến kết luận giống như Friedmann.
+        </p>
+        <p>
+            Do đó, các nhà khoa học không đưa ra kết luận nào khác, chỉ cho rằng vũ trụ đang giãn nở.
+        </p>
+        <p>
+            Có những lý thuyết khác về việc tạo ra vũ trụ không quan trọng bằng lý thuyết này. Tuy nhiên, trên thế giới này vẫn có những người tin và coi đó là sự thật. Chúng tôi liệt kê chúng dưới đây.
+        </p>
+        <div class="group">
+            <li><b>Lý thuyết Big Crunch:</b> Lý thuyết này dựa trên nền tảng của nó là sự giãn nở của vũ trụ sẽ chậm lại từ từ cho đến khi nó bắt đầu co lại. Đó là về sự co lại của vũ trụ. Sự co lại này sẽ kết thúc trong một vụ nổ lớn được gọi là Vụ nổ lớn.
+                Không có nhiều bằng chứng hỗ trợ lý thuyết này.</li>
+            <li><b>Vũ trụ dao động:</b> Nó nói về vũ trụ của chúng ta dao động trong một vụ nổ Big Bang và Big Crunch không đổi.</li>
+            <li><b>Trạng thái ổn định và liên tục sáng tạo:</b> Nó duy trì rằng vũ trụ đang giãn nở và mật độ của nó không đổi vì có vật chất trong quá trình sáng tạo liên tục.</li>
+            <li><b>Lý thuyết lạm phát:</b> Nó dựa trên những đặc điểm giống như Vụ nổ lớn nhưng nói rằng đã có một quá trình ban đầu. Quá trình này được gọi là lạm phát và sự giãn nở của vũ trụ diễn ra nhanh hơn.</●>
+
+        </div>
+    </div>
+
+    <div class="header-scroll">
+        <a onclick="topFunction()" id="myBtn" title="Go to top"><img src="../pictures/menu/scroll-up.jpg" width="30px"></a>
+    </div>
+    <div class="footer text-white">
+        <div class="footer-left">
+            <h3>Điều hướng</h3>
+            <ul>
+                <li> <a href="../Home/home.html">Trang chủ</a></li>
+                <li> <a href="../aboutus/profile.html">Giới thiệu</a></li>
+            </ul>
+        </div>
+        <div class="footer-middle">
+            <div class="note">
+                <h1>SPACE</h1>
+                <p>Blog chia sẻ kiến thức về vũ trụ và các hành tinh.</p>
+                <input type="text" placeholder="Search.." name="search" value="Search..." style="width:80%;">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="footer-right">
+            <h4>THÔNG TIN LIÊN HỆ</h4>
+            <p>Lê Thanh Nghị, Hai Bà Trưng, Hà Nội.</p>
+            <p><i class="fas fa-phone-alt" style="padding: 5px;"></i>012.012.2015</p>
+            <p>Bạn có câu hỏi? Hãy email chúng tôi tại
+                <p><i class="fas fa-envelope" style="padding: 5px;"></i>
+                    <a href="mailto:hoanghieuduc@gmail.com">hoanghieuduc@gmail.com </a>
+                </p>
+            </p>
+        </div>
+    </div>
+</body>
+
+<script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+</html>
