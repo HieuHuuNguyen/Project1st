@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+}
+
+.list .new-list {
+    padding: 15px;
+}
+
+.list .right {
+    border-style: groove;
+    color: dodgerblue;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.list .right h3 {
+    text-align: center;
+    background: rgba(0, 128, 0, 0.6);
+    color: rgb(30, 64, 255);
+}
+
+.list .right h4 {
+    text-align: center;
+    background: rgba(0, 128, 0, 0.6);
+    color: rgb(30, 64, 255);
+}
