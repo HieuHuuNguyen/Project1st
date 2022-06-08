@@ -1,0 +1,39 @@
+.header {
+    background-image: url("../header/pictures/menu/header-background.jpg");
+}
+
+.find {
+    border-radius: 25px;
+    width: 450px;
+}
+
+.main-content {
+    float: left;
+    width: 100%;
+}
+
+.header-scroll {
+    position: fixed;
+    padding-left: 1440px;
+    bottom: 30px;
+    width: 100%;
+}
+
+.footer {
+    float: left;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+}
+
+body {
+    background-image: url("../header/pictures/menu/mainbackground.jpg");
+}
+
+.card {
+    background-color: #E7E9EB;
+}
+
+.dropdown-item {}
